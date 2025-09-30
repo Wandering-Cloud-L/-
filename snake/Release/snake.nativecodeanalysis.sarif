@@ -1,0 +1,1238 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Snake::coor。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Snake::{ctor}",
+                  "decoratedName": "??0Snake@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Snake::coor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Snake::speed。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Snake::{ctor}",
+                  "decoratedName": "??0Snake@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Snake::speed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Snake::direction。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Snake::{ctor}",
+                  "decoratedName": "??0Snake@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Snake::direction"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Snake::size。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Snake::{ctor}",
+                  "decoratedName": "??0Snake@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Snake::size"
+          }
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 8,
+                  "endLine": 96,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GameInit",
+                  "decoratedName": "?GameInit@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“fp”可能是“0”: 这不符合函数“fclose”的规范。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 2,
+                  "endLine": 104,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GameInit",
+                  "decoratedName": "?GameInit@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是对“fclose”的输入(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:152 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“fp”可能是“0”: 这不符合函数“fprintf_s”的规范。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 2,
+                  "endLine": 534,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "writeRecord",
+                  "decoratedName": "?writeRecord@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 533,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是“fprintf_s”的输入/输出参数(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:875 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”不应为 NULL，因为这与“fprintf_s”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“fp”可能是“0”: 这不符合函数“fclose”的规范。查看第 534 行以找出可能会发生此情况的前一位置"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 535,
+                  "startColumn": 2,
+                  "endLine": 535,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "writeRecord",
+                  "decoratedName": "?writeRecord@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 533,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是“fprintf_s”的输入/输出参数(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:875 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 535,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是对“fclose”的输入(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:152 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 535,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “fscanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 543,
+                  "startColumn": 2,
+                  "endLine": 543,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readRecord",
+                  "decoratedName": "?readRecord@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“fp”可能是“0”: 这不符合函数“fscanf”的规范。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 543,
+                  "startColumn": 2,
+                  "endLine": 543,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readRecord",
+                  "decoratedName": "?readRecord@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是“fscanf”的输入/输出参数(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:1199 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”不应为 NULL，因为这与“fscanf”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "“fp”可能是“0”: 这不符合函数“fclose”的规范。查看第 543 行以找出可能会发生此情况的前一位置"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/code/snake/snake/snake.cpp"
+                },
+                "region": {
+                  "startLine": 544,
+                  "startColumn": 2,
+                  "endLine": 544,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readRecord",
+                  "decoratedName": "?readRecord@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是“fscanf”的输入/输出参数(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:1199 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”是对“fclose”的输入(在 c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\stdio.h:152 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/code/snake/snake/snake.cpp"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "“fp”不应为 NULL，因为这与“fclose”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33522.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/code/snake/snake/snake.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fbc42309a5bb074066fee42984102958d1d9db23aca2a6498c8b1f42365f9277"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/community/vc/auxiliary/vs/include/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "057ee75a89db99556d63a972b5611a42913b3fc6678f305b01f305b076bf220c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/community/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "bb41113e55530a7bc296c223e3cb1c48b0d35c053b4c66ed843e4f75463cf0d8"
+          }
+        }
+      ]
+    }
+  ]
+}
